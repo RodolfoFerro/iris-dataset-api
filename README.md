@@ -4,6 +4,8 @@
 
 Puedes echar un vistazo a detalle en la siguiente presentación, la cual incluye detalles de configuración y creación del servicio.
 
+[![Slides](https://img.shields.io/badge/Link%20a%20Slides-8A2BE2)](https://docs.google.com/presentation/d/e/2PACX-1vQ_hcnVtAH0CAFtfi-AWVR_FX7mACpNC1SQD1CM6QsfSQs_AoRP2OKdLTV1BmbGoZHbl1XBywE_A-No/pub?start=false&loop=false&delayms=3000)
+
 ### Preparación del modelo
 
 - Se utiliza un cuaderno de Google Colab para entrenar un modelo sencillo de clasificación de especies en Iris. El cuaderno puede ser encontrado en la carpeta [notebooks](/noteboks).
@@ -49,3 +51,6 @@ gcloud run deploy --image gcr.io/<project_id>/<function_name> --platform managed
 - Para cualquier aclaración, puedes contactar al autor: https://rodolfoferro.xyz/
 
 **Copyright (c) 2024 Rodolfo Ferro**
+
+gcloud builds submit --tag gcr.io/televisionbot-221802/predict
+gcloud run deploy --image gcr.io/televisionbot-221802/predict --platform managed
