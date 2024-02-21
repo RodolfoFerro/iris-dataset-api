@@ -51,6 +51,3 @@ gcloud run deploy --image gcr.io/<project_id>/<function_name> --platform managed
 - Para cualquier aclaración, puedes contactar al autor: https://rodolfoferro.xyz/
 
 **Copyright (c) 2024 Rodolfo Ferro**
-
-gcloud builds submit --tag gcr.io/televisionbot-221802/predict
-gcloud run deploy --image gcr.io/televisionbot-221802/predict --platform managed

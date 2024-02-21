@@ -2,7 +2,6 @@ from pprint import pprint
 
 import requests
 
-
 species = ['setosa', 'versicolor', 'virginica']
 
 if __name__ == '__main__':
@@ -16,7 +15,6 @@ if __name__ == '__main__':
         'petal_length': 3.9,
         'petal_width': 1.4
     }
-
 
     response = requests.post(url, json=input_data)
 

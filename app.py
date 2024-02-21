@@ -36,7 +36,7 @@ def predict():
 
     if request.method == 'GET':
         message = {
-            'message': 'Hello World!', 
+            'message': 'Hello World!',
             'timestmap': datetime.now(),
         }
         json_message = jsonify(message)
